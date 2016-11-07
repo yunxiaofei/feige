@@ -2,9 +2,48 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <meta name="keywords" content="牛人，云晓飞，2014级本科生，最酷，时尚" />
+    <title>水平导航菜单栏练习</title>
+    <style>
+        /*样式重置*/
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+       #menu{
+           list-style: none;
+       }
+       #menu li a{
+           text-decoration: none;
+           width: 100%;
+           height: 100%;
+           display: block;
+       }
+
+       #menu li/*后代选择器*/{
+            float: left;
+            width: 120px;
+            height: 30px;
+            background: #cccccc;
+            margin: 5px;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
 </head>
 <body>
-    哈哈哈
+<ul id="menu">
+    <li>
+        <a href="http://www.baidu.com" >云晓飞</a>
+    </li>
+    <li>
+        <a href="#">大帅哥</a>
+   </li>
+    <li>
+        <a href="#">超级帅</a>
+    </li>
+</ul>
+
 </body>
 </html>
